@@ -1,0 +1,14 @@
+name: New mcpServer
+version: 0.0.1
+schema: v1
+mcpServers:
+  - name: "redis": {
+      "command": "docker",
+      "args": [
+        "run",
+        "-i",
+        "--rm",
+        "mcp/redis",
+        "redis://host.docker.internal:6379"
+      ]
+    }

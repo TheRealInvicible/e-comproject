@@ -1,0 +1,5 @@
+name: production rule
+version: 0.0.1
+schema: v1
+rules:
+  - all the response must always build the project with a production ready
